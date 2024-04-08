@@ -1,0 +1,184 @@
+html,
+body {
+	align-items: center;
+	background-image: url("../img/background.jpg");
+	display: flex;
+	color: #1b1b1b;
+	flex-direction: column;
+	font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto",
+		"Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol",
+		"Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota",
+		"Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI",
+		"Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya",
+		"Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le",
+		"Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text",
+		"Cambria Math";
+	font-size: 15px;
+	height: 100vh;
+	justify-content: center;
+	position: relative;
+	width: 100vw;
+}
+.box {
+	background-color: #fff;
+	box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+	height: 23.3rem;
+	margin: 1.467rem 0 1.333rem 0;
+	width: 29.333rem;
+}
+.form-box {
+	display: flex;
+	flex-direction: column;
+	height: 77%;
+	margin: 2.867rem 2.933rem 3.6rem 2.933rem;
+	position: relative;
+}
+.outt-logo {
+  width: 11.4rem;
+  height: 2.4rem;
+}
+.microsoft-logo {
+	width: 7.2rem;
+	height: 1.6rem;
+}
+.form-box label {
+	font-size: 1.6rem;
+	margin: 1.133rem 0 1.2rem 0;
+}
+.pin-input {
+	border: none;
+	border-bottom: 1px solid #000;
+	margin: 0 0 1.333rem 0;
+	outline: none;
+	padding: 0.4rem 0 0.4rem 0;
+}
+.pin-input:focus {
+	border-bottom: 1px solid #0067b8;
+}
+.form-box p {
+	font-size: 13px;
+	margin: 0 0 1.333rem 0;
+}
+.form-box a {
+	text-decoration: none;
+	color: #0067b8;
+}
+.form-box a:hover {
+	text-decoration: underline;
+}
+.security-div {
+	display: flex;
+	flex-direction: row;
+}
+.security-div a {
+	font-size: 13px;
+}
+.interrogation-logo {
+	height: 1.067rem;
+	width: 1.067rem;
+	margin: 0 0 0 0.467rem;
+}
+.submit-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.button {
+	background-color: #0067b8;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	height: 2.133rem;
+	width: 7.2rem;
+}
+.options {
+	align-items: center;
+	background-color: #fff;
+	box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+	cursor: pointer;
+	display: flex;
+	height: 3.2rem;
+	margin: 0 0 3.2rem 0;
+	width: 29.333rem;
+}
+.options:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.options img {
+	width: 2.133rem;
+	height: 2.133rem;
+	margin: 0 0.933rem 0 2.867rem;
+}
+.footer {
+	color: rgba(27, 27, 27);
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+.footer a {
+	color: rgba(27, 27, 27);
+	font-size: 12px;
+	margin: 0.4rem 0.733rem;
+	text-decoration: none;
+}
+.footer a:last-child {
+	font-weight: bold;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-delay: .25s
+}
+.active {
+	visibility: hidden;
+	transition-delay: .25s
+}
+.popup {
+	background-color: #fff;
+	box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%),
+		0 9px 46px 8px rgb(0 0 0 / 12%), 0 11px 15px -7px rgb(0 0 0 / 20%);
+	height: 26.667rem;
+	width: 50rem;
+	overflow-x: hidden;
+}
+.terms {
+	height: 75%;
+	overflow-y: scroll;
+	padding: 1.667rem 1.667rem 0 1.667rem;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.terms a {
+	text-decoration: none;
+	color: #0067b8;
+}
+.terms a:hover {
+	text-decoration: underline;
+}
+.check {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+}
+.check input,
+.check label {
+	margin: 0 0.333rem 0 0.333rem;
+}
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+	width: 1.667rem;
+	height: 1.667rem;
+}
